@@ -32,7 +32,7 @@ def print_report(book_path):
     print(f"--- Begin report of {book_path} ---")
     print(f"{word_count} words found in the document")
     for char in char_list:
-        print(f"The '{char}' character was found ")
+        print(f"The '{char['char']}' character was found {char['num']} times")
     print("--- End report ---")
 
 def main():
